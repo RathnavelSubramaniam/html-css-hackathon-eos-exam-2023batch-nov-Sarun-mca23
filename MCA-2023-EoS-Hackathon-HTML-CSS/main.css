@@ -1,0 +1,154 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 1520px;
+    margin: 0 auto;
+    background-color: #fffded;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+.nav-item{
+    margin-left: 30px;
+    font-weight: bold;
+}
+/* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #040080;
+}
+header h2 {
+	font-size: 175%;
+	color: #040080;
+    text-align: center;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+    text-align: center;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #040080;
+}
+/* the styles for the main content */
+main {
+	clear: left;
+	
+}
+/* the styles for the section */
+section {
+	width: 725px;
+	float: left;
+	padding: 0 20px 20px 20px;
+}
+section h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;               /* If you remove this, the margins in normalize.css will be applied. */
+}
+section h2 {
+	color: #040080;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+/* the styles for the article */
+article {
+	padding: .5em 0;
+	border-top: 2px solid #040080;
+	border-bottom: 2px solid #040080;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+    height: 150px;
+}
+
+/* the styles for the aside */
+aside {
+	width: 315px;
+	float: left;
+	padding: 0 0 20px 20px;
+}
+aside h2 {
+	color: #040080;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside img {
+	padding-bottom: 1em;
+    height: 100px;
+    width: 100px;
+}
+
+
+/* the styles for the footer */
+footer {
+	background-color: #040080;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
+#carouselExampleAutoplaying{
+	height: 100px;
+	width: 400px;
+	margin-left: 40%;
+}
+@media (max-width: 768px) {
+	
+	.navbar-expand-lg {
+		flex-direction: column;
+	}
+	
+}
+
+
+@media (max-width: 480px) {
+
+	.navbar-expand-lg {
+		flex-direction: column;
+	}
+	
+}
